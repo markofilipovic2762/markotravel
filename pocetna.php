@@ -34,3 +34,42 @@
         <div id="menu-btn" class="fas fa-bars"></div>
 
     </section>
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background:url(slike/home-slide-1.jpg) no-repeat">
+                    <div class="content">
+                        <span>istraži, otkrij, putuj</span>
+                        <h3>putuj širom sveta</h3>
+                        <a href="aranzman.php" class="btn">istraži više</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(slike/home-slide-2.jpg) no-repeat">
+                    <div class="content">
+                        <span>istraži, otkrij, putuj</span>
+                        <h3>otkrij nova mesta</h3>
+                        <a href="aranzman.php" class="btn">istraži više</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(slike/home-slide-3.jpg) no-repeat">
+                    <div class="content">
+                        <span>istraži, otkrij, putuj</span>
+                        <h3>doživi nezaboravno iskustvo</h3>
+                        <a href="aranzman.php" class="btn">istraži više</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
