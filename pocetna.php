@@ -73,3 +73,42 @@
         </div>
 
     </section>
+    <section class="services">
+
+        <h1 class="heading-title"> naše usluge </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="slike/icon-1.png" alt="">
+                <h3>avantura</h3>
+            </div>
+
+            <div class="box">
+                <img src="slike/icon-2.png" alt="">
+                <h3>vodjene ture</h3>
+            </div>
+
+            <div class="box">
+                <img src="slike/icon-3.png" alt="">
+                <h3>planinarenje</h3>
+            </div>
+
+            <div class="box">
+                <img src="slike/icon-4.png" alt="">
+                <h3>kampovi</h3>
+            </div>
+
+            <div class="box">
+                <img src="slike/icon-5.png" alt="">
+                <h3>of roud</h3>
+            </div>
+
+            <div class="box">
+                <img src="slike/icon-6.png" alt="">
+                <h3>kampovanje</h3>
+            </div>
+
+        </div>
+
+    </section>
