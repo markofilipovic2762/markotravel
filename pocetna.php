@@ -112,3 +112,125 @@
         </div>
 
     </section>
+
+    <section class="home-about">
+
+        <div class="image">
+            <img src="slike/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>O nama</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+            <a href="o_nama.php" class="btn">pročitajte više</a>
+        </div>
+
+    </section>
+
+
+    <section class="home-packages">
+
+        <h1 class="heading-title"> naši aranžmani </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Spomenici kulture</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Letovanje</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Prirodne lepote</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="load-more"> <a href="aranzman.php" class="btn">učitaj više</a> </div>
+
+    </section>
+
+
+    <section class="home-offer">
+        <div class="content">
+            <h3>do 50% popusta</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
+            <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>brzi linkovi</h3>
+                <a href="pocetna.php"> <i class="fas fa-angle-right"></i> početna</a>
+                <a href="o_nama.php"> <i class="fas fa-angle-right"></i> o nama</a>
+                <a href="aranzman.php"> <i class="fas fa-angle-right"></i> aranžmani</a>
+                <a href="bukiranje.php"> <i class="fas fa-angle-right"></i> bukirajte</a>
+            </div>
+
+            <div class="box">
+                <h3>dodatni linkovi</h3>
+                <a href="#"> <i class="fas fa-angle-right"></i> pitajte nas</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> o nama</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> politika privatnosti</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> uslovi korišćenja</a>
+            </div>
+
+            <div class="box" id="kontakt">
+                <h3>kontakt informacije</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> marko@travel.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Belgrade, Serbia - 11300 </a>
+            </div>
+
+            <div class="box">
+                <h3>pratite nas</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Napravio <span>Marko Filipović</span> | sva prava zadržana! </div>
+
+    </section>
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
