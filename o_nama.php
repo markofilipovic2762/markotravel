@@ -38,4 +38,30 @@
     <div class="heading" style="background:url(slike/header-bg-1.png) no-repeat">
         <h1>O nama</h1>
     </div>
-    
+    <section class="about">
+
+        <div class="image">
+            <img src="slike/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Zašto da izaberete nas?</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <span>top destinacije</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>pristupačne cene</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 Vama na usluzi</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
