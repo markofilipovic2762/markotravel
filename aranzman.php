@@ -42,3 +42,146 @@
     <div class="heading" style="background:url(slike/header-bg-2.png) no-repeat">
         <h1>aranžmani</h1>
     </div>
+    <section class="packages">
+
+        <h1 class="heading-title">top destinacije</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Spomenici kulture</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Egzotične destinacije</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Priroda</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>daleki istok</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>evropske prestonice</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>surf ture</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Afrika</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Grčka</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tajland</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ture u Sahari</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-11.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Rafting Tarom</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="slike/img-12.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Egipat all exclusive</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+                    <a href="bukiranje.php" class="btn">bukirajte odmah</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="load-more"><span class="btn">učitaj više</span></div>
+
+    </section>
