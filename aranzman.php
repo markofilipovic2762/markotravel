@@ -185,3 +185,54 @@
         <div class="load-more"><span class="btn">učitaj više</span></div>
 
     </section>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>brzi linkovi</h3>
+                <a href="pocetna.php"> <i class="fas fa-angle-right"></i> početna</a>
+                <a href="o_nama.php"> <i class="fas fa-angle-right"></i> o nama</a>
+                <a href="aranzman.php"> <i class="fas fa-angle-right"></i> aranžmani</a>
+                <a href="bukiranje.php"> <i class="fas fa-angle-right"></i> bukirajte</a>
+            </div>
+
+            <div class="box">
+                <h3>dodatni linkovi</h3>
+                <a href="#"> <i class="fas fa-angle-right"></i> pitajte nas</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> o nama</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> politika privatnosti</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> uslovi korišćenja</a>
+            </div>
+
+            <div class="box" id="kontakt">
+                <h3 id="kontakt">kontakt informacije</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> marko@travel.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Belgrade, Serbia - 11300 </a>
+            </div>
+
+            <div class="box">
+                <h3>pratite nas</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Napravio <span>Marko Filipović</span> | sva prava zadržana! </div>
+
+    </section>
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
