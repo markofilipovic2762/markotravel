@@ -50,3 +50,4 @@ var swiper = new Swiper(".home-slider", {
        loadMoreBtn.style.display = 'none';
     }
  }
+

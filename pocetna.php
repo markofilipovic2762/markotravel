@@ -1,3 +1,10 @@
+<?php
+//entry.php  
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location:login.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +19,9 @@
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="css/style.css">
+    
 
 </head>
 
@@ -34,6 +43,10 @@
         <div id="menu-btn" class="fas fa-bars"></div>
 
     </section>
+       
+        <?php
+        echo '<div class="d-flex justify-content-between alert alert-success" role="alert"><h1>Dobrodošli - ' . $_SESSION["username"] .'</h1><a type="button" href="logout.php" class="btn btn-secondary ">Izlogujte se</a></div>';
+        ?>
 
     <section class="home">
 
@@ -226,7 +239,7 @@
 
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- swiper js link  -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
