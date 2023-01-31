@@ -1,6 +1,6 @@
 <?php
 
-   $connection = mysqli_connect('localhost','root','','bukiranje_db');
+   $connection = mysqli_connect('localhost','root','','markotravel');
 
    if(isset($_POST['posalji'])){
       $ime = $_POST['ime'];
@@ -12,7 +12,7 @@
       $dolazak = $_POST['dolazak'];
       $odlazak = $_POST['odlazak'];
 
-      $request = " insert into bukiranje_forma(ime, email, telefon, adresa, mesto, broj_gostiju, dolazak, odlazak) values('$ime','$email','$telefon','$adresa','$mesto','$broj_gostiju','$dolazak','$odlazak') ";
+      $request = " insert into bukiranje(ime, email, telefon, adresa, mesto, broj_gostiju, dolazak, odlazak) values('$ime','$email','$telefon','$adresa','$mesto','$broj_gostiju','$dolazak','$odlazak') ";
       mysqli_query($connection, $request);
 
       header('location:bukiranje.php'); 
