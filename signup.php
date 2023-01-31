@@ -2,7 +2,7 @@
 session_start();
 
 // Connect to the MySQL database
-$conn = new mysqli("localhost", "root", "", "markotravel");
+$conn = mysqli_connect('sql108.epizy.com','epiz_33268878','aO2ry6oWIk','epiz_33268878_markotravel');
 
 // Check if the form has been submitted
 if (isset($_POST['submit'])) {

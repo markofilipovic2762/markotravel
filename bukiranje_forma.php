@@ -1,6 +1,6 @@
 <?php
 
-   $connection = mysqli_connect('localhost','root','','markotravel');
+   $connection = mysqli_connect('sql108.epizy.com','epiz_33268878','aO2ry6oWIk','epiz_33268878_markotravel');
 
    if(isset($_POST['posalji'])){
       $ime = $_POST['ime'];
