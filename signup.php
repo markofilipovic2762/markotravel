@@ -10,9 +10,8 @@ if (isset($_POST['submit'])) {
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $username = mysqli_real_escape_string($conn, $_POST['username']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
-    //$password = password_hash($password, PASSWORD_DEFAULT);
 
-    //$password = password_hash($password, PASSWORD_DEFAULT);
+    $password = password_hash($password, PASSWORD_DEFAULT);
     
     // Prepare and execute the MySQL query to check if the username already exists
     $query = $conn->prepare("SELECT * FROM users WHERE username = ?");

@@ -10,17 +10,24 @@ if (isset($_POST['submit'])) {
     $username = mysqli_real_escape_string($conn, $_POST['username']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
 
-    // Hash the password for security
-    //$password = password_hash($password, PASSWORD_DEFAULT);
-
     // Prepare and execute the MySQL query
-    $query = $conn->prepare("SELECT * FROM users WHERE username = ? AND password = ?");
-    $query->bind_param("ss", $username, $password);
-    $query->execute();
-    $result = $query->get_result();
+    $queryPassword = $conn->prepare("SELECT password FROM users WHERE username = ?");
+    $queryPassword->bind_param("s", $username);
+    $queryPassword->execute();
+    $queryPassword = $queryPassword->get_result();
+
+    // Pretvaranje mysqli_result u string
+    $rows = [];
+    while ($row = mysqli_fetch_assoc($queryPassword)) {
+        $rows[] = $row['password'];
+    }
+    $queryPassword = implode(', ', $rows);
+    //
+
+    $isTruePass = password_verify($password, $queryPassword);
 
     // Check if the query returned a result
-    if ($result->num_rows > 0) {
+    if ($isTruePass) {
         // Start a session and store the user's information
         $_SESSION['logged_in'] = true;
         $_SESSION['username'] = $username;
